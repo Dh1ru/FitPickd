@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - FitPickd</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>FitPickd</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="shop.html" class="nav-link">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>Ready to own your fit? Let's connect!</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="product">Selected Product</label>
+                            <select id="product" name="product">
+                                <option value="">Choose a product (optional)</option>
+                                <option value="premium-shirt">Premium Cotton Shirt</option>
+                                <option value="slim-fit-pants">Slim Fit Pants</option>
+                                <option value="casual-jacket">Casual Jacket</option>
+                                <option value="accessories">Accessories</option>
+                                <option value="custom">Custom Order</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="size">Size</label>
+                            <select id="size" name="size">
+                                <option value="">Select size</option>
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone/WhatsApp *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your style preferences or any specific requirements..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Connect With Us</h2>
+                    
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Guwahati, Assam, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p>+91 98765 43210</p>
+                                <a href="https://wa.me/9198765432100?text=Hi%20FitPickd!%20I'm%20interested%20in%20your%20collection." class="whatsapp-link" target="_blank">
+                                    Chat on WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>hello@fitpickd.com</p>
+                                <a href="mailto:hello@fitpickd.com" class="email-link">Send Email</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <h3>Instagram</h3>
+                                <p>@fitpickd</p>
+                                <a href="https://instagram.com/fitpickd" class="instagram-link" target="_blank">Follow Us</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="business-hours">
+                        <h3>Business Hours</h3>
+                        <p><strong>Monday - Saturday:</strong> 10:00 AM - 8:00 PM</p>
+                        <p><strong>Sunday:</strong> 12:00 PM - 6:00 PM</p>
+                    </div>
+
+                    <div class="location-note">
+                        <h3>📍 Based in Guwahati</h3>
+                        <p>We're proud to call Guwahati our home. While we primarily operate online, we're always happy to meet our customers in person when possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact CTA -->
+    <section class="quick-contact">
+        <div class="container">
+            <h2>Need Immediate Assistance?</h2>
+            <p>For quick responses and real-time support, reach out to us on WhatsApp</p>
+            <a href="https://wa.me/9198765432100?text=Hi%20FitPickd!%20I%20need%20help%20with%20my%20order." class="whatsapp-cta" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+                Chat on WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FitPickd</h3>
+                    <p>For the Fit You Own</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://instagram.com/fitpickd" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="mailto:hello@fitpickd.com"><i class="fas fa-envelope"></i> hello@fitpickd.com</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Guwahati, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FitPickd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
